@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Mulish:wght@400;700&family=Oswald:wght@200;700&family=Roboto:ital@0;1&display=swap');
+* {
+    margin: 0;
+    margin-top:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    
+ 
+    
+  }
+body{
+    height: 100vh;
+    width: 100vw; 
+    background-image: linear-gradient(
+        to right ,
+        rgba(6, 5, 12, 0.475),
+        rgba(148, 36, 240, 0.148)
+       
+      ),url(assets/bg.png);
+    opacity:100;
+    background-position-x:center;
+     
+    background-size:cover;
+    height: 100vh;
+    
+}
+nav.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+   
+    background-color: #1f1f1f;
+    margin-top:-1.9%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+  
+    align-items: center;
+}
+div>ul
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   list-style-type: none;
+   
+  
+}
+div.grow-list
+{
+    flex: 0.6;
+    /* border: 2px solid red; */
+    position: relative;
+    right: 17%;
+}
+.line
+
+{
+    flex: 0.2;
+    color: #ffff;
+    /* /* position: relative;
+    right:9% ; */
+    font-size: 50px; 
+}
+ul>li
+{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+div .logo
+{
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+div .button-small
+{
+   
+    margin-left: 120px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:#ffffff;
+    background-color:#c53dd4;
+    font-size: 20px;
+    
+    margin: auto;
+}
+div.hero
+{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.hero-heading
+{
+    font-size: 90px;
+    /* border: 2px solid red; */
+    text-align: center;
+    text-justify: auto;
+    color: #ffffff;
+    width: 60%;
+    font-weight: 900;
+    margin-top: -0.09%;
+}
+.hero-description
+{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 0.3%;
+}
+.button-large
+{
+    margin-left: 120px;
+    /* margin-top: 5%; */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 50px;
+    color:#ffffff;
+    background-color:#c53dd4;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+ul>li:hover
+{
+    color:#929090;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 900;
+}
